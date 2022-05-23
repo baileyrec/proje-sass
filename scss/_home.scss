@@ -1,0 +1,29 @@
+.home{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    
+    
+
+    background:linear-gradient(to right,rgba($primary-color,0.9),rgba($primary-color,0.4)),   
+    url(../img/project1.jpeg) center center;
+    background-size: cover;
+
+    &_name{
+        font-size: 5rem;
+        padding-top: 1rem;
+        margin-bottom: 1rem;
+        border-bottom: 2px solid #fff;
+        width: 100%;
+        text-align: center;
+        font-weight: 300;
+
+        &_last{
+            color: $secondary-color;
+            font-weight: 400;
+
+        }
+    }
+}
